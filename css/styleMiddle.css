@@ -41,11 +41,58 @@
 }
 
 /*  */
+/* section for help div */
+
+.section-middle-help {
+  margin-top: 10%;
+}
+
+.help-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 17%;
+}
+
+.help-div div {
+  height: 300px;
+  width: 40%;
+}
+
+.help-div-right {
+  background-image: url("../media/donation10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+
+.help-div-left {
+  background-color: white;
+  margin-right: 2%;
+}
+
+.help-div-left h1 {
+  font-size: 30px;
+  text-align: left;
+}
+
+.help-div-left p {
+  font-size: 15px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.help-div-left a {
+  text-align: left;
+  margin-left: 0;
+  /* standard button has 15px margin. removing left margin to align it to left properly */
+}
+
+/*  */
 /* News styling: */
 /*  */
 
 .section-middle-news {
-  margin-top: 7%;
+  margin-top: 12%;
   background-color: rgba(128, 128, 128, 0.272);
   padding-top: 30px;
   padding-bottom: 30px;
