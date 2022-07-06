@@ -50,7 +50,7 @@
 .help-div {
   display: flex;
   flex-direction: row;
-  margin-left: 17%;
+  margin-left: 15%;
 }
 
 .help-div div {
@@ -67,7 +67,7 @@
 
 .help-div-left {
   background-color: white;
-  margin-right: 2%;
+  margin-right: 3%;
 }
 
 .help-div-left h1 {
