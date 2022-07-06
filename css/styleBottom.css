@@ -1,0 +1,72 @@
+/* Section statistics */
+/*  */
+
+.section-statistics {
+  padding-top: 10%;
+  border-right: 12px solid;
+  border-top: 12px solid;
+  border-color: rgba(223, 16, 137, 0.995);
+}
+.statistics-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+}
+.statistics-div div {
+  height: 100px;
+  width: 20%;
+  padding: 30px;
+  /* margin: 20px; */
+  /* border: 1px solid; */
+  border-radius: 3px;
+  box-shadow: rgba(116, 116, 178, 0.25) 0px 2px 5px -1px,
+    rgba(171, 96, 96, 0.3) 0px 1px 3px -1px;
+}
+.statistics-div h1 {
+  font-size: 20px;
+}
+
+/*  */
+/* Section email */
+/*  */
+.section-email {
+  /* Adding padding instead of margin for adding right border */
+  padding-top: 10%;
+  padding-bottom: 12%;
+  text-align: center;
+  border-right: 12px solid;
+  border-color: rgba(223, 16, 137, 0.995);
+}
+
+.section-email form {
+  height: 130px;
+  width: 50%;
+  background-color: bisque;
+  margin-left: 25%;
+}
+
+.section-email input[type="text"] {
+  width: 30%;
+  padding: 12px 20px;
+  border: none;
+  background-color: #d9d9d9;
+  color: #aa9f9f;
+  margin-top: 7%;
+}
+
+/* button for email list */
+.email-button {
+  font-size: 16px;
+  background-color: #ff5959; /* Green */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  /* get button closer to textbix */
+  margin-left: -2%;
+  padding: 10px 24px;
+  padding-bottom: 11.5px;
+  padding-top: 9.5px;
+  cursor: pointer;
+}

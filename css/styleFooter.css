@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap");
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sadnan-rashid {
+  font-family: "The Nautigal", cursive;
+  color: rgba(24, 188, 150, 0.518);
+}
+
+#white-font {
+  color: white;
+}

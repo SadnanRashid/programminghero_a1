@@ -1,0 +1,60 @@
+.section-top {
+  margin-top: 8%;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+.standard-heading {
+  font-weight: 300;
+  text-align: center;
+  align-items: center;
+  color: black;
+  font-size: 40px;
+}
+
+.standard-sub-heading {
+  text-align: center;
+  align-items: center;
+  color: black;
+  font-family: "Kantumruy Pro", sans-serif;
+  font-size: 18px;
+}
+
+.price-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 26.5%;
+  margin-top: 4%;
+}
+
+.price-box div {
+  padding: 20px;
+  background-color: #f8f3f3;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: rgba(223, 16, 137, 0.995);
+}
+
+#price-box-selected {
+  background-color: rgb(235, 198, 198);
+  border: solid;
+  border-color: red;
+  columns: red;
+  color: red;
+}
+
+#donation-amount-div {
+  text-align: center;
+  margin: 60px;
+}
+
+#donation-amount-textbox {
+  width: 45%;
+  display: inline-block;
+  padding: 12px 20px;
+  border: none;
+  border-bottom: 2px solid rgb(202, 117, 117);
+  text-align: center;
+  margin-bottom: 30px;
+}
